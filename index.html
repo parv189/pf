@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        .value{
+            display: none;
+        }
+        .value:target{
+            display: block;
+        }
+    </style>
+    
+</head>
+<body>
+        <nav class="block space-x-0 jufstify-start align-center lg:flex lg:space-5">
+            <div class="px-4 py-4 bg-gray-900 ">
+                <span class="text-lg text-center text-white">Parv Gajipara</span>
+            </div>
+            <div class="items-center justify-center px-4 py-4 md:text-center lg:justify-start">
+                <a href="#home" class="block px-4 py-1 font-semibold text-black md:inline-block text-md">HOME</a>
+                <a href="#casestudy" class="block px-4 py-1 font-semibold text-black md:inline-block text-md">CASE STUDY</a>
+                <a href="#blogspol" class="block px-4 py-1 font-semibold text-black md:inline-block text-md">BLOGSPOST</a>
+                <a href="#contact" class="block px-4 py-1 font-semibold text-black md:inline-block text-md">CONTACT ME</a>
+            </div>
+        </nav>
+        <div class="w-full lg:top-0 lg:-right-32 shrink-0 lg:w-auto lg:absolute">
+            <img class="mx-auto my-6 rounded-full lg:w-3/4 lg:h-3/4 h-52 w-52 lg:rounded-none lg:m-0" src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Profile_img">
+        </div>
+        <div id="home" class="value">
+            <div class="max-w-lg ml-3 text-black sm:ml-5 md:pt-5 md:ml-24 lg:ml-32 lg:mt-14">
+                <h1 class="text-3xl font-extrabold text-blue-900">Hello!</h1>
+                <h1 class="text-3xl font-extrabold text-blue-900"><em class="font-semibold">I'm</em> Parv Gajipara</h1>
+                <p class="mt-6 font-semibold text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, obcaecati illum aspernatur praesentium nam eaque distinctio, architecto eligendi perferendis hic</p>
+                <p class="mt-6 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere animi aliquam, tenetur mollitia ex totam deleniti commodi eveniet sunt iusto molestias aliquid, rerum fugiat! Dolores dolore tenetur adipisci dolorum quidem.</p>
+            </div>
+        </div>
+        <div id="casestudy" class="value">
+            <div class="max-w-lg ml-3 text-black sm:ml-5 md:pt-5 md:ml-24 lg:ml-32 lg:mt-14">
+                <h1 class="text-lg font-bold text-blue-900"><em class="font-semibold">Travel Agency Website Redesign</h1>
+                <p class="text-justify text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere animi aliquam, tenetur mollitia ex totam deleniti commodi eveniet sunt iusto molestias aliquid, rerum fugiat! Dolores dolore tenetur adipisci dolorum quidem.</p>
+                <h1 class="text-lg font-bold text-blue-900"><em class="font-semibold">Fashion & Blog Website Design</h1>
+                <p class="text-justify text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere animi aliquam, tenetur mollitia ex totam deleniti commodi eveniet sunt iusto molestias aliquid, rerum fugiat! Dolores dolore tenetur adipisci dolorum quidem.</p>
+                </div>
+        </div>
+        <div id="blogspol" class="value">
+            <div class="max-w-lg ml-3 sm:ml-5 md:pt-5 md:ml-24 lg:ml-32 lg:mt-14">
+                <ul>
+                    <h1 class="font-serif text-xl text-purple-900">TechCrunch</h1>
+                    <li class="font-mono text-sm text-start">Technology Blogs</li>
+                    <li class="font-mono text-sm text-start">Business Blogs</li>
+                    <li class="font-mono text-sm text-start">Tech News Websites</li>
+                </ul>
+                <ul>
+                    <h1 class="pt-6 font-serif text-xl text-purple-900 ">Wired</h1>
+                    <li class="font-mono text-sm text-start">Technology Magazines</li>
+                    <li class="font-mono text-sm text-start">Geek Blogs</li>
+                </ul>
+                <ul>
+                    <h1 class="pt-6 font-serif text-xl text-purple-900">Billboard</h1>
+                    <li class="font-mono text-sm text-start">Music News Websites</li>
+                    <li class="font-mono text-sm text-start">Music Industry Blogs</li>
+                </ul><ul>
+                    <h1 class="pt-6 font-serif text-xl text-purple-900">TMZ.com</h1>
+                    <li class="font-mono text-sm text-start">Celebrity Gossip Blogs</li>
+                    <li class="font-mono text-sm text-start">Hollywood Blogs</li>
+                    <li class="font-mono text-sm text-start">Entertainment News</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="contact" class="value">
+            <div class="max-w-lg ml-3 sm:ml-5 md:pt-5 md:ml-24 lg:ml-32 lg:mt-14">
+                <form class="w-full max-w-lg">
+                    <div class="flex flex-wrap mb-6 -mx-3">
+                      <div class="w-full px-3 mb-6 md:w-1/2 md:mb-0">
+                        <label class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase" for="grid-first-name">
+                          First Name
+                        </label>
+                        <input class="block w-full px-4 py-3 mb-3 leading-tight text-gray-700 bg-gray-200 border rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" id="grid-first-name" type="text" placeholder="First Name">
+                      </div>
+                      <div class="w-full px-3 md:w-1/2">
+                        <label class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase" for="grid-last-name">
+                          Last Name
+                        </label>
+                        <input class="block w-full px-4 py-3 leading-tight text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Last Name">
+                      </div>
+                    </div>
+                    <div>
+                        <label for="grid-Email" class="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase">Email</label>
+                        <input class="block w-full px-4 py-3 text-gray-700 bg-gray-200 border border-gray-200 rounded appearance-none focus:outline-none focus:bg-white focus:border-gray-500 " id="grid-Email" type="email" placeholder="xyz@gmail.com">
+                    </div>
+                    <div>
+                        <button class="w-full py-2 mt-10 text-lg font-semibold text-white bg-purple-700 border border-purple-700 rounded appearance-none focus:outline-none focus:bg-white focus:text-purple-700 focus:border-purple-700">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+            
+        
+</body>
+</html>
